@@ -12,4 +12,4 @@ multiples = []
   end
 end
 
-puts multiples.inject(:+)
+puts multiples.inject(:+) # try out reduce, inject is ruby specific
