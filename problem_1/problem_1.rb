@@ -7,7 +7,6 @@ multiples = []
 
 (1...1000).each do |value|
   if value % 3 == 0 || value % 5 == 0
-    puts value
     multiples << value
   end
 end
